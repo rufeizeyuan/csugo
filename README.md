@@ -45,7 +45,7 @@ bee run
 下面是部分接口数据示例
 
 #### 成绩查询接口
-`youwebsite/api/v1/jwc/:id/:pwd/grade [get]`
+`youwebsite/api/v1/jwc/:id/:pwd/grade?token=csugo-token`
 
 参数说明:
 
@@ -100,7 +100,7 @@ pwd:教务系统密码
 ```
 #### 课表查询
 
-`youwebsite/api/v1/jwc/:id/:pwd/class/:term/:week [get]`
+`youwebsite/api/v1/jwc/:id/:pwd/class/:term/:week?token=csugo-token`
 
 参数说明:
 
